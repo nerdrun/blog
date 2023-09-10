@@ -6,9 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      textColor: {
+        'light-grey': '#d1d1d1',
+      },
       backgroundColor: {
         'light-dark': '#191919'
-      }
+      },
+      borderColor: {
+        'diminished-grey': '#16191A',
+      },
     },
   },
   plugins: [],
