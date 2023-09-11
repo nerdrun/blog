@@ -1,0 +1,1 @@
+export default (path: string, file: string) => () => import(`@/views/${path}/${file}.vue`)
