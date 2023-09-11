@@ -8,6 +8,10 @@ export default {
     extend: {
       textColor: {
         'light-grey': '#d1d1d1',
+        'diminished-black': '#6B6B6B',
+        blog: '#FFEE4E',
+        conference: '#67FDE7',
+        course: '#EA3664',
       },
       backgroundColor: {
         'light-dark': '#191919'

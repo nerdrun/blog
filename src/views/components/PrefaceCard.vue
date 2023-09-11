@@ -1,4 +1,4 @@
-<script lang="ts"></script>
+<script setup lang="ts"></script>
 <template>
   <section class="w-[1024px]">
     <h2 class="text-3xl font-semibold border-b border-b-diminished-grey pb-3">Hi! I'm Kai.</h2>
@@ -29,13 +29,19 @@
       <span class="text-light-grey">Currently: </span>
       <span class="font-semibold text-white">
         Full-stack engineer at
-        <a href="https://it.schwarz/en/international/spain" target="_blank" class="underline text-blue-400">
+        <a href="https://it.schwarz/en/international/spain" target="_blank" class="underline text-cyan-400">
           Schwarz global services barcelona
+        </a>
+        of
+        <a href="https://gruppe.schwarz/" target="_blank" class="underline text-cyan-500">
+          Schwarz Grouppe
         </a>
       </span>
     </div>
     <div>
-      <a href="" class="underline text-blue-400 font-semibold">Read more -></a>
+      <router-link to="/about">
+        <div class="underline text-cyan-400 font-semibold">Read more -></div>
+      </router-link>
     </div>
   </section>
 </template>
