@@ -2,7 +2,7 @@
 <template>
   <section class="w-[1024px]">
     <h2 class="text-3xl font-semibold border-b border-b-diminished-grey pb-3">Hi! I'm Kai.</h2>
-    <h3 class="text-lg my-4 text-light-grey">I'm a software engineer specializing in :</h3>
+    <h3 class="text-lg my-4 text-light-grey">I'm a software engineer specialized in:</h3>
     <ul class="pl-3">
       <li>
         <span class="text-light-grey">Web:</span>
